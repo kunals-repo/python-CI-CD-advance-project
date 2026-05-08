@@ -6,7 +6,7 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: kunals-repo/python-CI-CD-advance-project/.github/workflows/python_reusable.yml@main
+    uses: kunals-repo/python-CI-CD-pipeline-with-reusable-workflow/.github/workflows/python_reusable.yml@main
 
     with:
       python_versions: "3.9,3.10,3.11"
