@@ -1,0 +1,17 @@
+name: Call Python CI/CD Workflow
+
+on:
+  push:
+    branches:
+      - main
+      
+
+  workflow_dispatch:
+
+jobs:
+  call-reusable-workflow:
+    uses: kunals-repo/python-CI-CD-advance-project/.github/workflows/python-reusable.yml@main
+
+    with:
+      python_versions: "3.9,3.10,3.11"
+
