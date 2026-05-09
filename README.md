@@ -3,7 +3,7 @@
 📌 Project Overview
 This project demonstrates a production-style Python CI/CD pipeline built using GitHub Actions reusable workflows.
 
-The pipeline automates:
+The pipeline automates :
 
 ✅ Code Validation
 
@@ -20,7 +20,7 @@ The workflow runs on a dedicated Self-Hosted Runner created exclusively for this
 
 ---------------------------------------------------------------------------------------------
 
-✨ Features Implemented
+✨ Features Implemented :
 
 🔁 Reusable Workflows (workflow_call)
 
@@ -102,5 +102,6 @@ Simulate Deployment
 
 --------------------------------------------------------------------------------------------------------
 
-📚 Conclusion
+📚 Conclusion :
+
 This project showcases how to build a scalable and reusable Python CI/CD pipeline using modern DevOps practices with GitHub Actions and Self-Hosted Runners.
