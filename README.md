@@ -4,13 +4,21 @@
 This project demonstrates a production-style Python CI/CD pipeline built using GitHub Actions reusable workflows.
 
 The pipeline automates:
+
 ✅ Code Validation
+
 ✅ Unit Testing
+
 ✅ Package Building
+
 ✅ Artifact Management
+
 ✅ Deployment Simulation
 
+
 The workflow runs on a dedicated Self-Hosted Runner created exclusively for this project, providing better performance, flexibility, and environment control.
+
+---------------------------------------------------------------------------------------------
 
 ✨ Features Implemented
 
@@ -32,54 +40,62 @@ The workflow runs on a dedicated Self-Hosted Runner created exclusively for this
 
 🌍 Environment Variables Configuration
 
+-----------------------------------------------------------------------------------------
 
 🛠️ Technologies Used :
-Technology
+
 🐍 Python : Application Development
+
 ⚙️ GitHub Actionn : CI/CD Automation
+
 🧪 Pytest : Unit Testing
+
 ✅ Flake8 : Code Linting
+
 📦 actions/cache : Dependency Caching
+
 📁 Upload Artifacts : Store Build Outputs
+
 🖥️ Self-Hosted Runner : Custom Pipeline Execution Environment
+
 
 
 📊 CI/CD Workflow
 Code Push
 
-   ↓
+     ↓
    
 Checkout Repository
 
-   ↓
+     ↓
    
 Setup Python Environment
 
-   ↓
+     ↓
    
 Install Dependencies
 
-   ↓
+     ↓
    
 Cache Dependencies
 
-   ↓
+     ↓
    
 Run Lint Checks
 
-   ↓
+     ↓
    
 Execute Unit Tests
 
-   ↓
+     ↓
    
 Build Python Package
 
-   ↓
+     ↓
    
 Upload Build Artifacts
 
-   ↓
+     ↓
    
 Simulate Deployment
 
