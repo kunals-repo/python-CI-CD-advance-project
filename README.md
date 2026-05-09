@@ -100,6 +100,7 @@ Upload Build Artifacts
    
 Simulate Deployment
 
+--------------------------------------------------------------------------------------------------------
 
 📚 Conclusion
 This project showcases how to build a scalable and reusable Python CI/CD pipeline using modern DevOps practices with GitHub Actions and Self-Hosted Runners.
