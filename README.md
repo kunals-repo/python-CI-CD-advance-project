@@ -58,9 +58,10 @@ The workflow runs on a dedicated Self-Hosted Runner created exclusively for this
 
 🖥️ Self-Hosted Runner : Custom Pipeline Execution Environment
 
+-------------------------------------------------------------------------------------------------------
 
+📊 CI/CD Workflow :
 
-📊 CI/CD Workflow
 Code Push
 
      ↓
