@@ -9,4 +9,4 @@ jobs:
     uses: kunals-repo/python-CI-CD-pipeline-with-reusable-workflow/.github/workflows/python_reusable.yml@main
 
     with:
-      python_versions: "3.9,3.10,3.11"
+      python_versions: '["3.9","3.10","3.11"]'
