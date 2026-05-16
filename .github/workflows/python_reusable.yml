@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ["3.9","3.10","3.11"]
+        python-version: ${{ fromJson(inputs.python_versions) }}
 
     env:
       APP_ENV: production
