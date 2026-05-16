@@ -26,7 +26,7 @@ The workflow runs on a dedicated Self-Hosted Runner created exclusively for this
 
 🖥️ Self-Hosted Runner
 
-⚡ Matrix Strategy (Multiple Python Versions)
+⚡ fromjson() function and Matrix Strategy (Multiple Python Versions)
 
 📦 Dependency Caching
 
